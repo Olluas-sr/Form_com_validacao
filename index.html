@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Quest Intermediaria JS</title>
+</head>
+<body>
+    <main>
+        <h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+        <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+    </main>
+
+    <div class="container_form">
+        <form>
+            <input class="informacoes"  type="text" name="nome" placeholder="Nome Completo *">
+            <p class="obrigatorio" id="obrigatorio">Campo obrigatorio</p>
+            <input class="informacoes" type="email" name="email" placeholder="Email *">
+            <p class="obrigatorio" id="obrigatorio">Campo obrigatorio</p>
+            <input class="informacoes" type="number" name="telefone"  placeholder="Telefone *">
+            <p class="obrigatorio" id="obrigatorio">Campo obrigatorio</p>
+            <textarea class="texto" name="texto" type="text" placeholder="Mensagem *"></textarea>
+            <p class="obrigatorio" id="obrigatorio">Campo obrigatorio</p>
+            <p>*Campos obrigatorios</p>
+            <button id="enviar" class="enviar">Enviar</button>
+        </form>
+    </div>
+    
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
